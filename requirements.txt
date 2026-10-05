@@ -2,7 +2,7 @@ fastapi
 uvicorn[standard]
 python-multipart
 pillow
-opencv-python-headless
+opencv-python-headless==4.12.0.88
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.14.1+cpu
 torchvision==0.29.1+cpu
